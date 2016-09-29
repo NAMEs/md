@@ -1,0 +1,15 @@
+接口文档服务器：
+58.249.57.254
+phpteam    php.300155
+
+接口文档git仓库：
+git@58.249.57.254:/home/git/interface_system
+password:git.300155
+
+接口文档数据库：
+58.249.57.254:8336
+phpteam
+php.300155
+
+rabbitmq地址信息
+host="58.249.57.254" username="test" password="test" port="5676"
