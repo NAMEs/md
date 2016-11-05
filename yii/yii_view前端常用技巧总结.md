@@ -6,4 +6,6 @@
 	?>
 在input()中可以添加各种属性，包括样式style；
 
-##
+##添加js代码
+
+	$this->view->registerJs($script, View::POS_READY);
