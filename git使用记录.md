@@ -57,27 +57,4 @@ git checkout a.php(这是单个文件)
 	git pull
 其中git reset是针对版本,如果想针对文件回退本地修改,使用
 
-	git checkout HEAD file/to/restore  
-
-
-  
-
-## 创建并从远程库中拉下来 ##
-
-…or create a new repository on the command line
-
-	echo "# test" >> README.md
-	git init
-	git add README.md
-	git commit -m "first commit"
-	git remote add origin https://github.com/Slowbroer/test.git
-	git push -u origin master  
-
-…or push an existing repository from the command line
-
-	git remote add origin https://github.com/Slowbroer/test.git
-	git push -u origin master  
-
-…or import code from another repository  
-
-	You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+	git checkout HEAD file/to/restore
