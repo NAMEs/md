@@ -24,6 +24,32 @@
 **strtoupper()**  
 转为大写  
 语法格式：strtoupper(string)  
+
+**str_pad()**
+str_pad() 函数把字符串填充为新的长度。
+
+	str_pad(string,length,pad_string,pad_type)  
+
+第四个参数：  
+
+	STR_PAD_BOTH - 填充字符串的两侧。如果不是偶数，则右侧获得额外的填充。  
+	STR_PAD_LEFT - 填充字符串的左侧。  
+	STR_PAD_RIGHT - 填充字符串的右侧。默认。  
+
+##进制函数
+
+base_convert()
+进制转换函数，任意进制，返回一个字符串
+
+	base_convert(number,frombase,tobase)
+	
+
+**bindec()**   
+bindec() 函数把二进制转换为十进制。
+
+	bindec(binary_string)//binary_string必需。规定要转换的二进制数。 
+	
+
   
 ##数据库函数  
 **mysql\_connect**  
@@ -56,4 +82,6 @@ mysql\_affected\_rows
   
 mysql\_insert\_id()  
 获取上一次插入操作产生的id
+ 
+ 
  

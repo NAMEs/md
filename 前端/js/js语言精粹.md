@@ -21,3 +21,29 @@
 但是实际上
 
 	"Test String".split(" ");//是可以调用成功的
+
+
+5.创建一个对象
+可以通过对象字面量来创建一个对象；
+如：  
+
+	var empty_object = {};
+	
+	var stooge = {
+	    "first-name": "Jerome",
+	    "last-name": "Howard"
+	};
+	
+对象的属性也可以是一个对象，只需在嵌套地定义相应的对象字面量；  
+
+6.创建一个新对象，并制定一个对象作为它的原型  
+
+	if (typeof Object.create !== 'function') {
+	     Object.create = function (o) {
+	         var F = function () {};
+	         F.prototype = o;
+	         return new F();
+	     };
+	}
+	var another_stooge = Object.create(stooge);
+
