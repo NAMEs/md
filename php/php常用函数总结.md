@@ -9,6 +9,15 @@
 字符串替换；  
 语法格式：str\_replace(find,replace,string,count)，其中find为要查找的值，replace为替换的值；  
 
+**substr_replace()**  
+字符串替换，可以指定*从第几个字符开始，长度多少*  
+语法格式：substr_replace(string,replacement,start,length)
+
+	<?php
+	echo substr_replace("Hello","world",0);
+	?>
+	最后输出：world
+
 **strlen()**  
 字符串长度  
 语法格式：int strlen ( string $string )

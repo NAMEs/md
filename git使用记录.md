@@ -14,7 +14,7 @@
 
 	$ git remote -v
 
-通过clone命令可以负责远程仓库的代码： 
+通过clone命令可以复制远程仓库的代码： 
   
 	$ git clone git@58.249.57.254:/home/git/interface_system
 

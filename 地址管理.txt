@@ -13,3 +13,6 @@ php.300155
 
 rabbitmqµÿ÷∑–≈œ¢
 host="58.249.57.254" username="test" password="test" port="5676"
+
+macbook mysql password
+Shqekf3T&t:E

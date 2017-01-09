@@ -9,3 +9,6 @@
 	$this->redirect(array('site/contact','v1','v2','v3'));  
 	$this->redirect(array('site/contact','v1','v2','v3','#'=>'ttt'));  
 	$this->redirect('http://www.baidu.com');
+	
+##路由问题
+如果一个action是actionTestRound()的话，那么它的路由就是r=控制器名/test-round
