@@ -92,3 +92,6 @@
 	 * ]);
 	 * ```
 
+
+##解决form的ajax式提交引发两次submit的问题
+把ajax提交定义在"beforeSubmit"事件里面，然后在ajax提交之后返回一个false；
