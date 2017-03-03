@@ -61,3 +61,13 @@
 	make && make install  //在安装的过程中会提示redis.so在哪里，后面将其放置到php的扩展目录即可  
 	/usr/lib/php/modules/  //这是安装是本机的php扩展目录，如果不知目录，可以在php.ini随便写一个扩展，重启php-fpm的时候就会提示扩展目录
 	vim /etc/php.ini//编辑配置文件，加入redis.so
+	
+	
+	
+#brew安装redis
+安装后提示这句话：  
+To have launchd start redis now and restart at login:
+  brew services start redis
+Or, if you don't want/need a background service you can just run:
+  redis-server /usr/local/etc/redis.conf
+
