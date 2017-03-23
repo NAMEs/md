@@ -1,6 +1,6 @@
 #JQuery  
 
-## ##this and $(this) 
+##this and $(this) 
 
 首先是$()的含义，表示JQuery(),即返回jq对象；  
 

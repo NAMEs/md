@@ -29,4 +29,15 @@ brew search git
 **brew home**       用浏览器打开brew的官方网站  
 **brew info**         显示软件信息  
 **brew deps**        显示包依赖
+
+
+##mac重置mysql的root密码
+
+* 首先是停止mysql服务，一般是在系统偏好设置－mysql；
+* 然后打开一个终端，输入：sudo /usr/local/mysql/bin/mysqld_safe --skip-grant-tables；
+* 然后打开另外一个终端，输入：sudo /usr/local/mysql/bin/mysql -u root  
+UPDATE mysql.user SET authentication_string=PASSWORD('新密码') WHERE User='root';  
+FLUSH PRIVILEGES;  
+exit;  
+
  
